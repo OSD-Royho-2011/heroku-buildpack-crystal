@@ -81,5 +81,6 @@ else
 fi
 
 start "Micrate"
+    chmod +x bin/micrate
     bin/micrate up
 finished
