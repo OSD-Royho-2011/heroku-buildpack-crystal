@@ -80,8 +80,3 @@ else
   finished
 fi
 
-start "Micrate"
-DATABASE_URL='postgres://qgoaewmprmkgel:fe024a8663f886180f838a2632e234546a3fbe46a45bcddd5b28e36c111472cf@ec2-3-230-24-12.compute-1.amazonaws.com:5432/db0i6ccd45nhtt'
-    chmod +x bin/micrate
-    bin/micrate up
-finished
