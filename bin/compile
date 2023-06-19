@@ -79,3 +79,7 @@ else
     crystal build src/${shard_name}.cr --release $NO_DEBUG_IF_AVAILABLE -o app
   finished
 fi
+
+start "Micrate"
+    bin/micrate up
+finished
