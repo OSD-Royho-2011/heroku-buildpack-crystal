@@ -80,3 +80,9 @@ else
   finished
 fi
 
+start "Database config"
+ crystal sam.cr db:drop
+ crystal sam.cr db:create
+ crystal sam.cr db:migrate
+finished
+
